@@ -8,6 +8,7 @@ public class UserSessionApiApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(UserSessionApiApplication.class, args);
+        System.out.println("test");
     }
 
 }
