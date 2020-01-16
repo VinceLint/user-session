@@ -6,15 +6,15 @@
     <artifactId>user-session</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>user-session</name>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.4.1.RELEASE</version>
     </parent>
     <modules>
-        <module>user-session-api</module>
-        <module>user-session-filter</module>
+        <module>user-session-common</module>
+        <module>user-session-web</module>
     </modules>
 
 </project>
